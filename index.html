@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div class="container">
+        <p id="welcome-el"></p>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"> <br>
+        <button id="register-name-btn" onclick="registerName()">Register name</button>       
+        <h1>Image Counter</h1>
+        <h2 id="count-el">0</h2>
+        <button id="increment-btn" onclick="increment1()">INCREMENT BY 1</button>
+        <button id="increment-btn" onclick="increment5()">INCREMENT BY 5</button><br>
+        <button id="increment-btn" onclick="increment10()">INCREMENT BY 10</button>
+        <button id="increment-btn" onclick="increment100()">INCREMENT BY 100</button> <br>
+        <label for="customCount">Custom count:</label><br>
+        <input type="number" id="cCount" name="customCount"><br>
+        <button id="register-custon-count-btn" onclick="registerCustomCount()">Register custom count</button><br>       
+      
+        <button id="save-count-btn" onclick="saveCount()">SAVE</button>
+        <p id="save-el">Previous entries: </p> 
+      </div>
+        <script src="index.js">        
+        </script>
+    </body>
+</html>

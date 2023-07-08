@@ -55,7 +55,7 @@ function registerName() {
 }
 
 function registerCustomCount() {
-  count = document.getElementById("cCount").value
+  count = parseInt(document.getElementById("cCount").value)
   countEl.innerText = count
   document.getElementById("cCount").value = ""
 }
